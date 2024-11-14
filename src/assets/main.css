@@ -1,0 +1,67 @@
+/* Estilo Global */
+body {
+  background-color: #1e2a28; /* Fondo principal verde oscuro */
+  color: #e0d5c2; /* Texto claro */
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+}
+
+/* Contenedor principal */
+#app {
+  margin: 0 auto;
+  max-width: 1280px;
+  padding: 2rem 1rem;
+}
+
+/* Secciones */
+section {
+  background-color: #283532; /* Fondo verde más claro */
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  color: #e0d5c2; /* Texto */
+  margin-bottom: 3rem;
+  padding: 2rem;
+}
+
+section h2 {
+  color: #c5b8a5; /* Bronceado suave */
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+/* Alternar colores de secciones */
+section:nth-child(even) {
+  background-color: #222f2d; /* Fondo ligeramente más oscuro */
+}
+
+/* Botones */
+button,
+a.btn {
+  background-color: transparent;
+  border: 2px solid #c5b8a5;
+  border-radius: 6px;
+  color: #c5b8a5;
+  font-size: 1rem;
+  padding: 0.7rem 1.5rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+button:hover,
+a.btn:hover {
+  background-color: #c5b8a5;
+  color: #1e2a28;
+  cursor: pointer;
+}
+
+/* Lista de elementos */
+ul {
+  list-style: disc;
+  margin: 1rem 0;
+  padding-left: 2rem;
+}
+
+ul li {
+  margin-bottom: 0.5rem;
+}
